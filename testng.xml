@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" verbose="1" name="VoyageTestSuite"
+	annotations="JDK" parallel="none">
+
+	<listeners>
+		<listener class-name="com.inspify.utilities.TestngListener" />
+	</listeners>
+	<!-- To run entire tests in linear mode -->
+	<test name="RunTests">
+		<parameter name="BrowserName" value="chrome" />
+		<groups>
+			<run>
+				<include name="SmokeTest"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.inspify.testSuite.ProductSearchTestCases" />
+			<class name="com.inspify.testSuite.ProductDetailsTestCases" />
+			<class name="com.inspify.testSuite.ProductCompareTestCases" />
+			<class name="com.inspify.testSuite.FileViewerTestCases" />
+			<class name="com.inspify.testSuite.ProductStoriesTestCases" />
+			<class name="com.inspify.testSuite.KRPanoScenesTestcases" />
+			<class name="com.inspify.testSuite.HotSpotTestCases" />
+			<class name="com.inspify.testSuite.ViewAngleTestCases" />
+			<class name="com.inspify.testSuite.AdvisorPageRefreshTestCases" />
+			<class name="com.inspify.testSuite.LateJoinerTestCases" />
+			<class name="com.inspify.testSuite.LoungeTestCases" />
+			<class name="com.inspify.testSuite.LayoutTestCases" />
+			<class name="com.inspify.testSuite.participantStreamTestcases" />
+			<!--<class name="com.inspify.testSuite.ProductCampaignTestCases" />-->
+		</classes>
+
+	</test>
+</suite> 

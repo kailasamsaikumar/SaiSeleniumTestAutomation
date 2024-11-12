@@ -1,0 +1,123 @@
+#Test Data for TestrailIntegration
+TEST_RUN_ID = 139
+TESTRAIL_USERNAME = dev@inspify.com
+TESTRAIL_PASSWORD = wo^F+li'!2u!AiU2
+RAILS_ENGINE_URL = https://inspify.testrail.io/
+
+#Hub credentials for INSPIFY Test brand
+Hub_Url = https://web-dev-a.inspify.io/hub/65c50009-143d-4325-a40a-78aebff5e43b
+Hub_Username = vikas_inspifytest_voyage
+Hub_Password = Vikas_2022_INSPIFY
+
+# Test Data for application
+AdvisorURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?mode=cockpit&meeting=testing&role=advisor
+ClientURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?mode=cockpit&meeting=testing
+AdvisorName = Vikas-Advisor
+ClientName = Vikas-Client
+SecondClientName = Client-2
+ThirdClientName = Client-3
+
+InspifyTestAdvisorURL = https://web-dev-a.inspify.io/virtualboutique/aa4701fc-2d32-4789-a413-aff937cc4423?mode=cockpit&meeting=testing&role=advisor
+InspifyTestClientURL = https://web-dev-a.inspify.io/virtualboutique/aa4701fc-2d32-4789-a413-aff937cc4423?mode=cockpit&meeting=testing
+
+# Test Data for IWC VB Lite
+IWCVBLiteAdvisorURL = https://web-dev.inspify.io/virtualboutique/cc972f97-10dd-489a-bc3f-c83b80894be2?mode=cockpit&role=advisor&meeting=testing
+IWCVBLiteClientURL = https://web-dev-b.inspify.io/virtualboutique/cc972f97-10dd-489a-bc3f-c83b80894be2?mode=cockpit&meeting=testing
+
+# Test Data for Chopard Url's
+ChopardAdvisorURL = https://web-dev.inspify.io/virtualboutique/00047fe9-c7a5-4919-8883-4181b5d4a22c?mode=cockpit&meeting=testing&role=advisor
+ChopardClientURL = https://web-dev.inspify.io/virtualboutique/00047fe9-c7a5-4919-8883-4181b5d4a22c?mode=cockpit&meeting=testing
+
+# Test Data for AdvisorPageRefreshTestCases Document URL's
+TC_C8651_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=768fe3d1-fdb2-4245-9c9d-8647cb6f43e9&mode=cockpit&source=session&region=us&role=advisor
+TC_C8651_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=768fe3d1-fdb2-4245-9c9d-8647cb6f43e9&mode=cockpit&source=session&region=us
+
+TC_C34691_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=eeb8bcd8-ff4d-41b4-ac4f-5c692fb1a13a&mode=cockpit&source=session&region=us&role=advisor
+TC_C34691_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=eeb8bcd8-ff4d-41b4-ac4f-5c692fb1a13a&mode=cockpit&source=session&region=us
+
+# Test Data for FileViewerTestCases Document URL's
+TC_C34934_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=7bf39d0b-6ab9-4bdb-826f-180e81a128dd&mode=cockpit&source=session&region=us&role=advisor
+TC_C34934_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=7bf39d0b-6ab9-4bdb-826f-180e81a128dd&mode=cockpit&source=session&region=us
+
+TC_C34935_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=59647bbb-9ffa-4e75-9d2b-7330670712cb&mode=cockpit&source=session&region=us&role=advisor
+TC_C34935_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=59647bbb-9ffa-4e75-9d2b-7330670712cb&mode=cockpit&source=session&region=us
+
+TC_C34936_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=7d60396e-daf6-4125-8faf-5eaf79a8f428&mode=cockpit&source=session&region=us&role=advisor
+TC_C34936_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=7d60396e-daf6-4125-8faf-5eaf79a8f428&mode=cockpit&source=session&region=us
+
+TC_C40809_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=5695ac0d-514c-4f26-8069-a9e30d92c206&mode=cockpit&source=session&region=us&role=advisor
+TC_C40809_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=5695ac0d-514c-4f26-8069-a9e30d92c206&mode=cockpit&source=session&region=us
+
+#Voyage in hub
+TC_C40840_IWCADVISORURL = https://web-uat.inspify.io/virtualboutique/aa4701fc-2d32-4789-a413-aff937cc4423?meeting=fc016b21-b72f-46e7-b29d-1024da8e8ba2&mode=cockpit&source=session&region=ap&role=advisor
+TC_C40840_IWCCLIENTURL = https://web-uat.inspify.io/virtualboutique/aa4701fc-2d32-4789-a413-aff937cc4423?meeting=fc016b21-b72f-46e7-b29d-1024da8e8ba2&mode=cockpit&source=session&region=ap
+
+# Test Data for LayoutTestCases Document URL's
+TC_C40540_IWCADVISORURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=91c4749d-9a26-4562-aa76-a47d3574e813&mode=cockpit&source=session&region=ap&role=advisor
+TC_C40540_IWCCLIENTURL = https://web-dev.inspify.io/virtualboutique/316261f4-fbf6-49e2-88cf-e4d166f79267?meeting=91c4749d-9a26-4562-aa76-a47d3574e813&mode=cockpit&source=session&region=ap
+
+# Test Data for searching product using product names
+TC_ProductNameSearch = INGENIEUR
+
+# Test Data for searching specified product
+TC_ProductSearchText = IW391030
+
+# Test Data for show-case products to visit and verify
+TC_NO_OF_PRODUCTS = 10
+
+# Test Data for no.of clients deployed for Voyage
+TC_Clients = 1
+
+# Test Data for Stories popup
+TC_ExpectedInstagramContextIndex = 1
+TC_ExpectedInstagramContext = Instagram
+TC_ExpectedVideoClipContextIndex = 6
+TC_ExpectedVideoClipContext = VideoClip
+
+# Test Data for C2429 test case
+TC_C2429_aboutPageTitle = ABOUT
+TC_C2429_instagramPageTitle = INSTAGRAM
+TC_C2429_featurePageTitle = FEATURE
+
+# Test Data for File Viewer test cases
+TC_expectedFileViewer_Video_Value = icon
+
+# Test Data for C4873 test case
+TC_4873_IWCVBLite_UK_ExpectedDefaultLanguage = English
+TC_4873_IWCVBLite_UK_ExpectedEnglishLangaugeIndex = 2
+
+# Test Data for C4874 test case
+TC_4874_IWCVBLite_UK_ExpectedDefaultLanguage = Arabic
+TC_4874_IWCVBLite_UK_ExpectedLanguageIndex = 3
+TC_4874_IWCVBLite_UK_ExpectedLanguageCode = ar
+TC_4874_IWCVBLite_UK_ExpectedAllLanguageFilter = All
+TC_4874_IWCVBLite_UK_ExpectedAllLanguageIndex = 1
+
+# Test Data for C4875 test case
+TC_C4875_StorySearchText = Portofino
+
+#Test Data for C6371 test case
+TC_C6371_NoOfScenesToBeClicked = 5
+
+#Test Data for C6372 test case
+TC_C6372_PortugieserCollectionSceneNumber = 4
+TC_C6372_LimitedCollectionSceneNumber = 5
+TC_C6372_DaVinciCollectionSceneNumber = 6
+TC_C6372_PortfinoCollectionSceneNumber = 10
+TC_C6372_LadiesCollectionSceneNumber = 12
+
+#Test Data for C6373 test case
+TC_C6373_PortugieserCollectionProductID = 02f0701c-22a4-466a-be40-e5c33de788bb
+TC_C6373_LimitedCollectionProductID = ca7a5a4f-db0d-4da7-bf50-5a9652aa2b40
+TC_C6373_DaVinciCollectionProductID = 93214016-cea1-454a-bbdd-0f46a613d49e
+
+#Test Data for C6374 test case
+TC_C6374_InspirationHotspot1 = 5CF386A3E0524FD383E855C3943D793A
+TC_C6374_InspirationHotspot2 = A09F41586F19493AA7C246475DD6CA57
+TC_C6374_InspirationHotspot3 = 7C59E87AAD294E14941B567D39F7C20D
+
+#Test Data for C6375 test case
+TC_C6375_HLookAt = 60
+TC_C6375_VLookAt = 4
+TC_C6375_FOV = 150
+
