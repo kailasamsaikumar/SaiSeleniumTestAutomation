@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+  <Properties>
+    <Property name="LOG4J_FORMAT_MSG_NO_LOOKUPS">true</Property>
+  </Properties>
+  <Appenders>
+    <Console name="CONSOLE" target="SYSTEM_OUT" follow="true">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="CONSOLE" />
+    </Root>
+  </Loggers>
+</Configuration>
